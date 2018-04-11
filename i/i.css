@@ -40,6 +40,8 @@ header p{
 }
 section{
 	counter-reset:article-num;
+	border-style: dotted;
+	padding-right: 40px;
 }
 section article{
 	padding:1em 0;
