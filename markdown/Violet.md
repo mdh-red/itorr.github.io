@@ -17,7 +17,7 @@
         msallowfullscreen="msallowfullscreen"
         oallowfullscreen="oallowfullscreen"
         webkitallowfullscreen="webkitallowfullscreen"
-        scrolling="no" frameborder="0" width=600 height=321></iframe>
+        scrolling="no" frameborder="0" width=600 height=300 ></iframe>
 
 
 [日本官网](http://violet-evergarden.jp/)
