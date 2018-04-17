@@ -9,14 +9,15 @@
 
 >有着如同从故事书中出现般的样貌，金发碧眼的女子，保持着无机质的美，以玲珑剔透的声音如此说到。
 
->>>>>>>>>>——[轻小说官网](http://www.kyotoanimation.co.jp/books/violet/story/)
+>——[轻小说官网](http://www.kyotoanimation.co.jp/books/violet/story/)
 
 <iframe src="https://ddns.menhood.wang:2233/violet.html"
         allowfullscreen="allowfullscreen"
         mozallowfullscreen="mozallowfullscreen"
         msallowfullscreen="msallowfullscreen"
         oallowfullscreen="oallowfullscreen"
-        webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        webkitallowfullscreen="webkitallowfullscreen"
+        scrolling="no" frameborder="0"></iframe>
 
 
 [日本官网](http://violet-evergarden.jp/)
