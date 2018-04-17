@@ -1,4 +1,4 @@
-# Violet
+# Violet Evergarden
 ![](https://violetevergarden.love/images/violet.png)
 
 ## [Violet](https://violetevergarden.love/)
