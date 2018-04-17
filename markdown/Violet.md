@@ -1,5 +1,21 @@
 # Violet
-![](https://violetevergarden.love/images/violet.png)
+<p align="center">![](https://violetevergarden.love/images/violet.png)</p>
+
+<link rel="stylesheet" href="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css">
+
+<div id="dplayer"></div>
+
+<script src="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js"></script>
+<script>
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    screenshot: true,
+    video: {
+        url: 'https://ddns.menhood.wang:2233/Violet.mp4',
+        pic: 'https://ddns.menhood.wang:2233/violet.jpg',
+    }
+});
+</script>
 ## [Violet](https://violetevergarden.love/)
 
 >“自动手记人偶”这个名字名噪一时的时候，已经是相当一段时间前的事了。奥兰德博士发明了用于书写记录人声话语的机械。当初他仅仅为了爱妻而制造的这一机械，不知何时已普及至全世界，甚至设立了提供借出服务的机关。
