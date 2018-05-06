@@ -1,38 +1,183 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<title>M导航</title>
-<meta name="viewport" content="user-scalable=no,width=device-width">
-<link rel="stylesheet" href="i/i.css">
-<header><a href="https://github.com/mdh-red"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-	<h1><a href="#/home">M导航</a></h1>
-	<a href="http://pandao.github.io/editor.md/index.html" target="_blank"><p>编辑器</p></a>
-</header>
-<section>
-	<xmp>
-	{{#posts}}
-	<article>
-		<span class="num"></span>
-		<span class="size">{{size}}</span>
-		<h3><a href="#/{{url}}">{{title}}</a></h3>
-	</article>
-	{{/posts}}
-	</xmp>
-</section>
-<article class="article">
-	<xmp>
-	<div class="text">{{&text}}</div>
-	<span class="size">{{size}}</span>
-	<a class="home" href="#/home">🏠 返回首页</a>
-	</xmp>
-</article>
-<footer>✒️ 依托 <a href="https://pages.github.com/">GitHub Pages</a> 搭建</footer>
-<script>
-var
-gitConfig={
-	ssh:'git@github.com:mdh-red/mdh.github.io.git'
-}
-</script>
-<script src="i/itorr2.js"></script>
-<script src="i/md.js"></script>
-<script src="i/templet.js"></script>
-<script src="i/gitblog.js"></script>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Menhood的简历</title>
+    <meta name="description" content="援军的个人介绍">
+    <meta name="keywords" content="menhood,援军,介绍,简历">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGtmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOC0wNC0yNFQxNzo1OToxNiswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOC0wNC0yNFQxODowMjowNiswODowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTgtMDQtMjRUMTg6MDI6MDYrMDg6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ZDc4NzgzYjktMWU1MS0yODRiLThmM2YtZjA4ZjQzMzIyNzhmIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6OTBiZDU2YmItY2U3Yy04NjRiLThkNzMtMWNmNjEwYzliZWIyIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MzE4YWZhZTQtMGM1YS00OTQ3LWE1OGUtZmNkYTQ0MGI0Y2RiIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDozMThhZmFlNC0wYzVhLTQ5NDctYTU4ZS1mY2RhNDQwYjRjZGIiIHN0RXZ0OndoZW49IjIwMTgtMDQtMjRUMTc6NTk6MTYrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjJmN2UxYmEzLWY3YTMtMTY0NC04MDE0LWQ0MjNhNmVkMTA4MSIgc3RFdnQ6d2hlbj0iMjAxOC0wNC0yNFQxNzo1OToxNiswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZDc4NzgzYjktMWU1MS0yODRiLThmM2YtZjA4ZjQzMzIyNzhmIiBzdEV2dDp3aGVuPSIyMDE4LTA0LTI0VDE4OjAyOjA2KzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpYaLMgAAAUYSURBVHic7ZtZjFRFFIY/jAtjjIlLTNSocQkPGF8kxmCATGAcRtQOKolE4xb3LS6ouKEj4gRnmBFxHA2ME0DBFYj7gjCCS4yRRx+cjBqfxMT4pEhUHB/q3ub2uecuVXWb20n3l0zSdbpvneq/b1Wdc+rOpImJCZqZg8oeQNm0BCh7AGXTEqDsAZRNS4CyB1A2TS/AwdVXq3eVOIwazgLOBD4DdtfNy03TgMa8AzYDrwK7gDXAkfV01mgCnBH8AZwA3AAcX0+HjSZARbTHgO/r6bDRBJgn2u/X22EjCXAYMEPYPq230yIFONvz+jkYEUL2AtsTPjvN01eVogRYiVm1v/To4yLR3o4RQfIK8C1mt/CmCAFeA+4KXp8HfAUc49CPFOBd0Z4c+LoyaF8CfO3gpwZfAUaAy4VtOjDLsp8pwEnC9olon6L4OhfYaemrBh8BhoDrFPvbxAefRZdo/wD8KGzjmKkmmQl8aOmviqsAq4FbFfsmYD7wp2V/F4v2e8pn9gH3AP3Ke13AVkufgJsAI8CNiv11YIFDf0cA7cIm53+U+4Dlir0DGLV1bivAevTbfh2w0NZ5QAfRpMzcPTsyrnkIWKbY24HPbZzbCDAAXKXY1wHX2jgVzBHtncC/Oa5bAnQr9hmYdSgXeQVYiZl/kmH8vvyh7N/WQj6wuP4J4BHFXiGnCHkEGGT/Ph/lBfS1wIYO4ChhS5v/Gj3AYsVeIUcukSXAi8Dtin0QuC1zaNnI4Oc74GeHfnqBRYp9HvBx2oVpAqwAblbsLwN35h5aOp2i7bSVBQwAjyf4SJwOSQI8ha7oRuBq66HpnAacLmypv1YOlmLGLqlgqkwxNAF6gYcV+3riC5YPMvjZA2wroN9HMYujZCHwljRKAfqB+5WLR4BrvIdWi5z/W4F/Cuq7G7NNSi4DtkQNUQG6gXuVi3qA6wsaWMjhxKM/m+0vD8vQg7b5mJQaqBXg94SOji5uTFVmURv9gd8CmMRxCfbfwhdRAVahL3y34JFtJSBrf2PATwX7GAKeTrDfHTbkGjCAHvQ4Z1sJZBU/fEnKVp9FxDXaLrBKfijAKdtSmAqcKmxa+utKUrbaT+SXD0mKA4aABxR7O/CR48BCZPDzF/CFZ58hz6EvfMOYNDpGWiTYBzym2OdiCh+uzBXtUfJlf1n0AXco9rWk5CxZucCTmNxbcikWKWeENmC2sL3j0I/kGfRfeBj9jqiSJxtcjh4cVbDfuzsxKXDIHmCDZR+SQZS5Tc5sNW89YAV6ynkBdlukLH6OAn9YXC8ZRF+wh8mZrdpUhHrRa3Fd5E9izhdtn6OvNehf/g0s6hS2NcGkWlwn2fX5KcSzP9f9fy3m6FyykfjZQSouVeEl6Hn3TMypUBIy+xvD1P9t2YCemDllq67nAkvRa3HTgW+AY5X3LhRt29W/DXgTuEJ57yUcs1Wfk6Ee9Fj7HMzdEKWN+NG3bWh9Mvq5w2b06ZAL37PBBzH5Q5RNxKPF2cAhkfZe7M/0xjG7UZQtmBzfmSJOhxdhwuYJzJdfgAlvo8jkZxv60Xca+zDxSG/g63lMQOZFUc8H9AEnknw0Jue/T/a3OPClhb3WFPmEyC8J9qnEj759E6okX9YciGeEZPY3jlvtvy4cCAHkPC0y9/em3gJMJr4lNpUAf2Pi9fDI+lfMM8ANg6zMFs1/mOrSDkzmuBuznTUMk1r/NtfktAQoewBl0xKg7AGUTUuAsgdQNk0vwP/0+9l7RSsiXgAAAABJRU5ErkJggg==">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="stylesheet" href="dist/css/fontello.min.css">
+    <link rel="stylesheet" href="lib/zoom.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="title">
+                <img src="https://secure.gravatar.com/avatar/17842af77c9727c64e6468ad6d9d3f96?s=50&d=identicon&r=g" data-action="zoom">
+                <h1>Menhood的简历</h1>
+                <h2>(゜-゜)つロ 干杯~</h2>
+            </div>
+            <ul class="side-info">
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>Contact. 联系方式</dt>
+                    <dd><i class="icon-phone-1"></i>电话: □□□□□</dd>
+                    <dd><i class="icon-mail-alt"></i>邮箱: <a href="mailto:menhood@menhood.wang" target="_blank">menhood@menhood.wang</a></dd>
+                    <dd><i class="icon-wechat"></i>微信: Menhood（公众号）</dd>
+                    
+                </li>
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>Application. </dt>
+                    <dd></dd>
+                </li>
+            </ul>
+            <div class="note">
+                <p>拍摄视频</p>
+                <p>制作视频</p>
+                <p>技术学习研究</p>
+            </div>
+        </div>
+        <div class="main">
+            <ul class="main-info">
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>Basic info. 基本信息</dt>
+                    <dd><strong>个人信息:</strong> <span>Menhood / 男</span></dd>
+                    <dd><strong>毕业院校:</strong> <span>□□□□□□□</span></dd>
+                    <dd><strong>工作年限:</strong> <span>一年半</span></dd>
+                    <dd><strong>常用ID:</strong> <span>Menhood</span></dd>
+                    <dd><strong>博客:</strong> <a href="http://www.menhood.wang" target="_blank">Menhood.wang</a></dd>
+                    <dd><strong>GitHub:</strong> <a href="https://github.com/menhood/" target="_blank">https://github.com/menhood</a><iframe src="https://ghbtns.com/github-btn.html?user=menhood&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe></dd>
+                </li>
+                <li>
+                    <dt><i class="icon-bookmark"></i>Experience. 工作经验</dt>
+                    <h3><img src="" data-action="zoom"><span>YB公司（2017.2 - 2018.2）</span></h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <a href="http://tv.cctv.com/2018/04/17/VIDAyqwkxPyPycYTtTOWfzNq180417.shtml"><h4>《传承 第二季》</h4></a>
+                            <p>负责录音</p>
+							<p>摄影助理</p>
+							<p>剪辑助理</p>
+                            <img src="http://p1.img.cctvpic.com/photoAlbum/vms/standard/img/2018/4/15/CHANjFyF0qcp0BH2H3eezrY1180415.jpg" data-action="zoom" width="250px">
+                        </li>
+						<li>
+                            <div class="circle"></div>
+                            <h4>《中国影像方志》</h4>
+                            <p>负责录音</p>
+							<p>摄影助理</p>
+							<p>剪辑助理</p>
+                            <img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=14e1655130292df597c3ab13840a3b5d/b999a9014c086e069d9a9f3508087bf40ad1cb9a.jpg" data-action="zoom" width="250px">
+                        </li>
+						<li>
+                            <div class="circle"></div>
+                            <h4>《黔江旅游宣传片》</h4>
+							<p>摄影助理</p>
+							<p>剪辑助理</p>
+                            <img src="https://ddns.menhood.wang:2233/pic/Resume/%E9%BB%94%E6%B1%9F2017-8-14%E4%BA%8C%E5%8D%81%E5%88%86%E9%92%9F%E7%89%88.jpg" data-action="zoom" width="250px">
+                        </li>
+                    </ul>
+                    
+                    <h3>个人项目</h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>
+                                Menhood个人博客
+                                <a href="" target="_blank"><i class="icon-link"></i>源代码</a>
+                                <a href="https://www.menhood.wang" target="_blank"><i class="icon-link"></i>Site</a>
+                                <iframe src="https://ghbtns.com/github-btn.html?user=Menhood&repo=Menhood&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                            </h4>
+                            <p>zblog 内容维护，</p>
+                            <img src="" data-action="zoom" width="300px">
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>
+                                一些 小东西
+                            </h4>
+                            <p>使用 有 功能</p>
+                            <ul class="efe">
+                                <li>
+                                    <h5>XXX</h5>
+                                    <p>原理：</p>
+                                    <p></p>
+                                    <p></p>
+                                    <img src="" data-action="zoom">
+                                </li>
+                                <li>
+                                    
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <dt><i class="icon-bookmark"></i>Skill. 技能清单</dt>
+					<h3>后期</h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>Premiere / Final Cut Pro X</h4>
+                            <p>能够熟练使用软件</p>
+                            <p>熟悉 常用效果的使用</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>AfterEffect</h4>
+                            <p>熟悉常用效果<s>单词</s></p>
+                            <p>能<s>修改模板</s>实现常用特效</p>
+                            <p>了解多软件之间的联动</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>其他</h4>
+                            <p>熟悉 PS AI的简单使用</p>
+                            <p>了解常见兼容性问题</p>
+                            <p>有大量短视频制作经验</p>
+                        </li>
+                    </ul>
+                    <h3>前端</h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>HTML / CSS</h4>
+                            <p>能够编写常见布局</p>
+                            <p>熟悉手册查找方式</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>JavaScript</h4>
+                            <p>熟悉教程地址</p>
+                            <p>能重复温习N遍</p>
+                            
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>其他</h4>
+                            <p>熟悉 VPS及虚拟主机的配置搭建</p>
+                            <p>了解WIN MAC LINUX 操作方法</p>
+                            <p>有丰富的重装系统经验 </p>
+                        </li>
+                    </ul>
+                    
+                    <h3>其他属性</h3>
+                    <ul class="exp">
+                        <li>
+                            <p><a href="https://github.com/Menhood" target="_blank">GitHub</a> 忠实用户，平均每日浏览两小时<s>并不能看懂</s></p>
+                            
+                            <p>bilibili 重度用户，动漫爱好者</p>
+                            <p> 师从<a href="https://baidu.com" target="_blank">百度</a></p>
+                            
+                            <p>瞎折腾重度患者</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Theme by <a href="https://github.com/DIYgod/Resume" target="_blank">DIYgod</a>. Made with <i class="icon-heart throb" style="color: #d43f57;"></i> by Menhood. <a href="#" target="_blank">PDF 下载</a>. 最后更新于2018年5月1日</p>
+    </footer>
+    <script src="lib/zoom.min.js"></script>
+</body>
+</html>
