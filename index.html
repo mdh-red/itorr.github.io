@@ -1,38 +1,33 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<title>M导航</title>
-<meta name="viewport" content="user-scalable=no,width=device-width">
-<link rel="stylesheet" href="i/i.css">
-<header>
-	<h1><a href="#/home">M导航</a></h1>
-	<p>M导航-Menhood <a href="/docs">Nav</a></p>
-</header>
-<section>
-	<xmp>
-	{{#posts}}
-	<article>
-		<span class="num"></span>
-		<span class="size">{{size}}</span>
-		<h3><a href="#/{{url}}">{{title}}</a></h3>
-	</article>
-	{{/posts}}
-	</xmp>
-</section>
-<article class="article">
-	<xmp>
-	<div class="text">{{&text}}</div>
-	<span class="size">{{size}}</span>
-	<a class="home" href="#/home">🏠 返回首页</a>
-	</xmp>
-</article>
-<footer>✒️ 依托 <a href="https://pages.github.com">GitHub Pages</a> 搭建</footer>
-<script>
-var
-gitConfig={
-	ssh:'git@github.com:mdh-red/mdh.github.io.git'
-}
-</script>
-<script src="i/itorr2.js"></script>
-<script src="i/md.js"></script>
-<script src="i/templet.js"></script>
-<script src="i/gitblog.js"></script>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>M Nav</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docute/dist/docute.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docute/dist/theme-github.css" />
+  <style>
+    body {
+      text-rendering: auto;
+    }
+    #evanyou-canvas {
+      z-index: -1 !important;
+    }
+    .dplayer-wrap {
+      max-width: 700px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- don't remove this part start -->
+  <div id="app"></div>
+  <script src="https://cdn.jsdelivr.net/npm/docute/plugins/docsearch.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docute-evanyou/dist/evanyou.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docute/dist/docute.js"></script>
+  <script src="./config.js"></script>
+  <!-- livereload script placeholder -->
+  <!-- don't remove this part end -->
+</body>
+</html>
