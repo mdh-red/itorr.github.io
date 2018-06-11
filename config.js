@@ -29,7 +29,7 @@ docute.init({
                 title: '首页', path: '/zh-Hans/'
             },
             {
-                title: '资源', path: '/zh-Hans/ecosystem'
+                title: '资源', path: '/zh-Hans/resources'
             },
             {
                 title: '问答', path: '/zh-Hans/support'
