@@ -6,9 +6,7 @@ const langs = [
 docute.init({
     landing: 'landing.html',
     title: 'M Nav',
-    repo: 'mdh-red/mdh.github.io',
     twitter: 'MenhoodT',
-    'edit-link': '#',
     nav: {
         default: [
             {
