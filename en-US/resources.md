@@ -1,7 +1,0 @@
----
-search: english
----
-
-# Continue...
-
-## Building
