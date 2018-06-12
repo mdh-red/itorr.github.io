@@ -1,6 +1,5 @@
 const langs = [
-    { title: 'English', path: '/home', matchPath: /^\/(home|resources|support)/ },
-    { title: '简体中文', path: '/zh-Hans/', matchPath: /^\/zh-Hans/ },
+    { title: '简体中文', path: '/home', matchPath: /^\/(home|resources|support)/ },
 ];
 
 docute.init({
@@ -10,27 +9,13 @@ docute.init({
     nav: {
         default: [
             {
-                title: 'Home', path: '/home'
+                title: '首页', path: '/home'
             },
             {
-                title: 'Resources', path: '/resources'
+                title: '资源', path: '/resources'
             },
             {
-                title: 'Q A', path: '/support'
-            },
-            {
-                title: 'Languages', type: 'dropdown', items: langs
-            }
-        ],
-        'zh-Hans': [
-            {
-                title: '首页', path: '/zh-Hans/'
-            },
-            {
-                title: '资源', path: '/zh-Hans/resources'
-            },
-            {
-                title: '问答', path: '/zh-Hans/support'
+                title: '问答', path: '/support'
             },
             {
                 title: '选择语言', type: 'dropdown', items: langs
@@ -38,14 +23,14 @@ docute.init({
         ],
     },
     plugins: [
-        docsearch({
-            apiKey: '',
-            indexName: 'M nav',
-            tags: ['english', 'zh-Hans'],
-            url: 'https://mdh.red'
-        }),
-        evanyou()
-    ]
+            docsearch({
+                apiKey: '',
+                indexName: 'M nav',
+                tags: ['english', 'zh-Hans'],
+                url: 'https://mdh.red'
+            }),
+            evanyou()
+            ]
 });
 
 

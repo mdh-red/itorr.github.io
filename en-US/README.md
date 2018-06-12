@@ -1,0 +1,7 @@
+---
+search: english
+---
+
+# Welcome！
+
+## Building

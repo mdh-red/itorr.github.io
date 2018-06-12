@@ -1,7 +1,8 @@
 ---
-search: english
+nav: zh-Hans
+search: zh-Hans
 ---
 
-# Continue...
+# 待续...
 
-## Building
+## 建设中
