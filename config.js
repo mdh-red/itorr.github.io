@@ -1,6 +1,3 @@
-const langs = [
-    { title: '简体中文', path: '/home', matchPath: /^\/(home|resources|support)/ },
-];
 
 docute.init({
     landing: 'landing.html',
@@ -16,9 +13,6 @@ docute.init({
             },
             {
                 title: '问答', path: '/support'
-            },
-            {
-                title: '选择语言', type: 'dropdown', items: langs
             }
         ],
     },
