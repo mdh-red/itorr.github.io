@@ -1,5 +1,6 @@
 
 docute.init({
+    home: 'home.md',
     landing: 'landing.html',
     title: 'M Nav',
     twitter: 'MenhoodT',
