@@ -7,4 +7,3 @@ search: zh-Hans
 
 [备用留言板](https://www.menhood.wang/blog/?id=171)
 
-<iframe src="https://api.menhood.wang/hashover/hashover.html"frameborder="no" border="0" marginwidth="0" marginheight="0" height=100% width=100% ></iframe>
