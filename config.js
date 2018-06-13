@@ -13,7 +13,7 @@ docute.init({
                 title: '资源', path: '/resources'
             },
             {
-                title: '问答', source: '/support.html'
+                title: '问答', source: '/support'
             }
         ],
     },
