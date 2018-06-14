@@ -33,9 +33,8 @@ function hashover () {
             console.log('content:updated');
             for (let i = 0; i < document.querySelectorAll('#comment').length; i++) {
                 document.querySelectorAll('#comment')[i].addEventListener('click', function () {
-                    window[this.parentElement.id] && window[this.parentElement.id]();
                     var pl=document.getElementById('comment').innerHTML;
-                    pl='<script src="https://api.menhood.wang/hashover/comments.php"><script><noscript>请允许Javascript运行以加载评论</noscript>';
+                    pl='<script src="https://api.menhood.wang/hashover/comments.php"></script><noscript>请允许Javascript运行以加载评论</noscript>';
                 });
             }
         });
