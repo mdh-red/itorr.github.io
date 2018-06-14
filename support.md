@@ -7,7 +7,7 @@ search: zh-Hans
 
 [备用留言板](https://www.menhood.wang/blog/?id=171)
 
-<div id="comment" ></div>
+<div id="comment" >请打开代理，点击此处加载评论，如不能加载请访问备用留言板</div>
 <div id="disquscontent" style="display:none">
 <div id="disqus_thread"></div>
 <script>
