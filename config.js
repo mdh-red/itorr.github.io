@@ -19,28 +19,11 @@ docute.init({
     },
     plugins: [
             evanyou(),
-            hashover()
+
+            disqus({
+              shortname: 'mdh-red' // 把这个替换为你的 disqus 站点缩略名
+                })
             ]
             
     
 });
-
-
-
-function hashover () {
-    return function (context) {
-        context.event.on('content:updated', function () {
-            console.log('content:updated');
-            for (let i = 0; i < document.querySelectorAll('#comment').length; i++) {
-                document.querySelectorAll('#comment')[i].addEventListener('click', function () {
-                    document.getElementById('comment').innerHTML = document.getElementById('disquscontent').innerHTML;
-                });
-            }
-        });
-    };
-}
-
-
-
-
-
