@@ -19,9 +19,6 @@ docute.init({
     },
     plugins: [
             evanyou(),
-            disqus({
-                      shortname: 'mdh-red' 
-                  })
             ]
             
     
