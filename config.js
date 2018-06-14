@@ -19,10 +19,9 @@ docute.init({
     },
     plugins: [
             evanyou(),
-
             disqus({
-              shortname: 'mdh-red' // 把这个替换为你的 disqus 站点缩略名
-                })
+                      shortname: 'mdh-red' 
+                  })
             ]
             
     
