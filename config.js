@@ -33,7 +33,7 @@ function hashover () {
             console.log('content:updated');
             for (let i = 0; i < document.querySelectorAll('#comment').length; i++) {
                 document.querySelectorAll('#comment')[i].addEventListener('click', function () {
-                    document.getElementById('comment').innerHTML = '<script src="https://api.menhood.wang/hashover/comments.php"></script><noscript>请允许Javascript运行以加载评论</noscript>';
+                    document.getElementById('comment').innerHTML = document.getElementById('disquscontent').innerHTML;
                 });
             }
         });
