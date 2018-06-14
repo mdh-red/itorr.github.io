@@ -7,4 +7,4 @@ search: zh-Hans
 
 [备用留言板](https://www.menhood.wang/blog/?id=171)
 
-<div id="comment"></div>
+<div id="comment">点击加载评论</div>
