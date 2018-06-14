@@ -8,4 +8,5 @@ search: zh-Hans
 [备用留言板](https://www.menhood.wang/blog/?id=171)
 
 
+<script src="https://unpkg.com/docute/plugins/disqus.js"></script>
 
