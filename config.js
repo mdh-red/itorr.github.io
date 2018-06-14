@@ -20,7 +20,7 @@ docute.init({
     plugins: [
             evanyou(),
             disqus({
-      shortname: 'mdh-red' // replace this with your own shortname
+      shortname: 'mdh-red' 
     })
             ]
             
