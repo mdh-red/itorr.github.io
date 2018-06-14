@@ -10,4 +10,6 @@ search: zh-Hans
 
 
 <div id="disqus_thread">
+<h3>Disqus 加载中...</h3>
+如果长时间无法加载，请针对 disq.us | disquscdn.com | disqus.com 启用代理
 </div>
