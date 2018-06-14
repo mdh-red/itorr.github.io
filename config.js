@@ -18,8 +18,21 @@ docute.init({
         ],
     },
     plugins: [
-            evanyou()
+            evanyou(),
+            hashover()
             ]
+            
+    
 });
+
+function hashover(){
+    return function (context){
+        context.event.on('landing:updated',function (){
+        document.write('<script src="https://api.menhood.wang/hashover/comments.php"><script><noscript>请允许Javascript运行以加载评论</noscript>') 
+        })
+    }
+}
+
+
 
 
