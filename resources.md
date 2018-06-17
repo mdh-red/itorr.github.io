@@ -6,14 +6,14 @@
 [MG动画](/MG/nav)
 </p>
 
-<p class="warn">
+<p class="danger">
 [栏目包装（整套）](/Column-packing/nav)
 </p>
 
-<p class="success">
+<p class="tip">
 [Logo动画](/logo/nav)
 </p>
 
-<p class="info">
+<p class="warning">
 [字幕条](/Subtitle-bar/nav)
 </p>
