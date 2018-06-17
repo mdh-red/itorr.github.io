@@ -5,5 +5,5 @@
 ### 最后更新时间 2018-6-17
 
 <p class="tip">
-[Political Events 2018-6-17更新](/Column-packing/2018-6-17)
+[Political Events 2018-6-17更新](/columnpacking/2018-6-17)
 </p>

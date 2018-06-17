@@ -7,7 +7,7 @@
 </p>
 
 <p class="danger">
-[栏目包装（整套）](/Column-packing/nav)
+[栏目包装（整套）](/columnpacking/nav)
 </p>
 
 <p class="tip">
@@ -15,5 +15,5 @@
 </p>
 
 <p class="warning">
-[字幕条](/Subtitle-bar/nav)
+[字幕条](/subtitlebar/nav)
 </p>

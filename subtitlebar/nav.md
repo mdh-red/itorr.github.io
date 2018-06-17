@@ -4,5 +4,5 @@
 
 
 <p class="tip">
-[字幕条1](/Subtitle-bar/2018-6-17)
+[字幕条1](/subtitlebar/2018-6-17)
 </p>
