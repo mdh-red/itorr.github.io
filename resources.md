@@ -1,12 +1,19 @@
----
-search: zh-Hans
----
 
-# 待续...
+## 资源导航
 
-## 建设中
 
-## MG List
 <p class="tip">
-[MG模板-2018-6-14](/MG/2018-6-14)
+[MG动画](/MG/nav)
+</p>
+
+<p class="warn">
+[栏目包装（整套）](/Column-packing/nav)
+</p>
+
+<p class="success">
+[Logo动画](/logo/nav)
+</p>
+
+<p class="info">
+[字幕条](/Subtitle-bar/nav)
 </p>
