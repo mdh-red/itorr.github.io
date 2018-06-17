@@ -7,7 +7,7 @@
 </p>
 
 <p class="danger">
-[栏目包装（整套）](/columnpacking/nav)
+[栏目包装（整套）](/column/nav)
 </p>
 
 <p class="tip">
