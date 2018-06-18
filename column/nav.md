@@ -5,5 +5,5 @@
 ### 最后更新时间 2018-6-17
 
 <p class="tip">
-[Political Events 2018-6-17更新](/column/2018-6-17)
+[Political Events 2018-6-17更新 新闻、栏目、金色](/column/2018-6-17)
 </p>

@@ -1,7 +1,6 @@
 
 ## 资源导航
 
-
 <p class="tip">
 [MG动画](/MG/nav)
 </p>
