@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-  <title>M Nav</title>
-  <script src="https://cdn.jsdelivr.net/npm/docute/dist/docute.js"></script>
-  <script src="https://unpkg.com/docute@3.4.12/plugins/disqus.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docute/dist/docute.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docute/dist/theme-github.css" />
-  <style>
-    body {
-      text-rendering: auto;
-    }
-    #evanyou-canvas {
-      z-index: -1 !important;
-    }
-    .dplayer-wrap {
-      max-width: 700px;
-      margin: 20px 0;
-    }
-  </style>
-  <!--百度站内搜索-->
-  <meta name="baidu-site-verification" content="oDvMJewFdK" />
- </head>
-<body>
-  <!-- don't remove this part start -->
-  <div id="app"></div>
-  <script src="https://cdn.jsdelivr.net/npm/docute/plugins/docsearch.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docute-evanyou/dist/evanyou.min.js"></script>
-
-  <script src="./config.js"></script>
-  <!-- livereload script placeholder -->
-  <!-- don't remove this part end -->
-  <!--百度站内搜索-->
-   <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=6425416137103557955' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
-
-</body>
-</html>
+<meta charset="UTF-8">
+<title>i仓库</title>
+<meta name="viewport" content="user-scalable=no,width=device-width">
+<link rel="stylesheet" href="i/i.css">
+<header>
+	<h1><a href="#/home">i仓库</a></h1>
+	<p>妹 Blog - GitHub Pages 特别版</p>
+</header>
+<section>
+	<xmp>
+	{{#posts}}
+	<article>
+		<span class="num"></span>
+		<span class="size">{{size}}</span>
+		<h3><a href="#/{{url}}">{{title}}</a></h3>
+	</article>
+	{{/posts}}
+	</xmp>
+</section>
+<article class="article">
+	<xmp>
+	<div class="text">{{&text}}</div>
+	<span class="size">{{size}}</span>
+	<a class="home" href="#/home">🏠 返回首页</a>
+	</xmp>
+</article>
+<footer>✒️ 依托 GitHub Pages 搭建</footer>
+<script>
+var
+gitConfig={
+	ssh:'git@github.com:mdh-red/mdh.github.io.git'
+}
+</script>
+<script src="i/itorr2.js"></script>
+<script src="i/md.js"></script>
+<script src="i/templet.js"></script>
+<script src="i/gitblog.js"></script>
