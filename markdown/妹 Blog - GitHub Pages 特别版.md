@@ -35,3 +35,107 @@ http://im.front.dog
 
 ## Git 地址
 https://github.com/itorr/itorr.github.io
+
+## 样式示例
+
+#  H1
+##  H2
+###  H3
+####  H4
+#####  H5
+######  H6
+
+一级标题
+===
+二级标题
+---
+
+*斜体* or _强调_
+**加粗** or __加粗__
+***粗斜体*** or ___粗斜体__
+
+\*this text is surrounded by literal asterisks\*
+
+* 无序列表
+* 子项
+* 子项
+
++ 无序列表
++ 子项
++ 子项
+ 
+- 无序列表
+- 子项
+- 子项
+
+1. 第一行
+2. 第二行
+3. 第三行
+ 
+1. 第一行
+- 第二行
+- 第三行
+
+* 产品介绍（子项无项目符号）
+    此时子项，要以一个制表符或者4个空格缩进
+ 
+* 产品特点
+    1. 特点1
+    - 特点2
+    - 特点3
+* 产品功能
+    1. 功能1
+    - 功能2
+    - 功能3
+
+[link text](https://www.google.com "title text")
+
+[link text][id]
+[id]: https://www.mozilla.org "title text"
+
+<example@example.com>
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "title text")
+
+![alt text][logo]
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "title text"
+
+`` `包裹起来` ``
+
+```html
+\<div>Syntax Highlighting\</div>
+```
+
+```css
+body{font-size:12px}
+```
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```php
+<?php
+  echo "hello, world!";
+?>
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```  
+
+<strong>Blockquotes 引用：</strong>
+> Email-style angle brackets
+> are used for blockquotes.
+> > And, they can be nested.
+> #### Headers in blockquotes
+> * You can quote a list.
+> * Etc.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
